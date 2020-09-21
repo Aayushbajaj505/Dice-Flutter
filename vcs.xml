@@ -58,6 +58,10 @@
           <option name="url" value="https://github.com/abuanwar072/Welcome-Login-Signup-Page-Flutter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/afgprogrammer/Flutter-Login-Page-UI.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Aayush\AndroidStudioProjects" />
