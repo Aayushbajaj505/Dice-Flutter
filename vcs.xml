@@ -82,6 +82,10 @@
           <option name="url" value="https://github.com/Aayushbajaj505/Courthouse.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/adityadroid/adityadroid.github.io.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Aayush\AndroidStudioProjects" />
