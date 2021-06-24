@@ -1,9 +1,6 @@
 <templateSet group="Flutter">
-  <template name="streamBldr" value="StreamBuilder(&#10;    stream: $STREAM$,&#10;    builder: (BuildContext context, AsyncSnapshot snapshot) {&#10;        if (snapshot.hasData) {&#10;            return $WIDGET$;&#10;        } else if (snapshot.hasError) {&#10;            return $ERRORWIDGET$&#10;        } else {&#10;            return $LOADINGWIDGET$&#10;        }&#10; })" description="Create StreamBuilder" toReformat="true" toShortenFQNames="true">
-    <variable name="STREAM" expression="&quot;stream&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="WIDGET" expression="&quot;widgetToBuild&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="ERRORWIDGET" expression="&quot;Icon(Icons.error_outline);&quot;" defaultValue="&quot;Icon(Icons.error_outline),&quot;" alwaysStopAt="true" />
-    <variable name="LOADINGWIDGET" expression="&quot;CircularProgressIndicator();&quot;" defaultValue="&quot;CircularProgressIndicator()&quot;" alwaysStopAt="true" />
+  <template name="column" value="Column(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Column Widget" toReformat="true" toShortenFQNames="true">
+    <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
 </templateSet>
