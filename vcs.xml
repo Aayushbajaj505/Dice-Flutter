@@ -94,6 +94,10 @@
           <option name="url" value="https://github.com/TechieBlossom/sidebar_animation_flutter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/beejas-tech/kegger_drive_mobile.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Aayush\AndroidStudioProjects" />
