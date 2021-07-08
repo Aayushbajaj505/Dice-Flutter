@@ -110,6 +110,10 @@
           <option name="url" value="https://github.com/felangel/bloc/tree/master/examples/flutter_firebase_login.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/PuzzleLeaf/FlutterFirebaseAuthWithBloc.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Aayush\AndroidStudioProjects" />
