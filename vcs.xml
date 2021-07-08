@@ -118,6 +118,10 @@
           <option name="url" value="https://github.com/smrity24/login-registration-in-bLoC-pattern-Firebase.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/smrity24/Login-Registration-with-Flutter-bLoC-pattern-Firebase-.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Aayush\AndroidStudioProjects" />
