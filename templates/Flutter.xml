@@ -1,10 +1,14 @@
 <templateSet group="Flutter">
-  <template name="column" value="Column(&#10;  children: &lt;Widget&gt;[$goto$],&#10;)," description="Create Column Widget" toReformat="true" toShortenFQNames="true">
-    <variable name="goto" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+  <template name="showDialog" value="showDialog&lt;void&gt;(&#10;context: $context$,&#10;barrierDismissible: $dismiss$, // false = user must tap button, true = tap outside dialog&#10;builder: (BuildContext dialogContext){&#10;return AlertDialog(&#10;title: Text('$title$'),&#10;content: Text('$content$'),&#10;actions: &lt;Widget&gt;[&#10;FlatButton(&#10;child: Text('$buttonText$'),&#10;onPressed: () {&#10;Navigator.of(dialogContext).pop(); // Dismiss alert dialog&#10;},&#10;),&#10;],&#10;);&#10;},&#10;);" description="New AlertDialog" toReformat="true" toShortenFQNames="true">
+    <variable name="context" expression="&quot;context&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="dismiss" expression="&quot;barrierDismissible&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="&quot;dialogBody&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="buttonText" expression="&quot;buttonText&quot;" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="mateApp" value="import 'package:flutter/material.dart';&#10; &#10;void main() =&gt; runApp($className$());&#10; &#10;class $className$ extends StatelessWidget {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return MaterialApp(&#10;      title: 'Material App',&#10;      home: Scaffold(&#10;        appBar: AppBar(&#10;          title: Text('Material App Bar'),&#10;        ),&#10;        body: Center(&#10;          child: Container(&#10;            child: Text('Hello World'),&#10;          ),&#10;        ),&#10;      ),&#10;    );&#10;  }&#10;}" description="Create a New Material App" toReformat="true" toShortenFQNames="true">
-    <variable name="className" expression="&quot;MyApp&quot;" defaultValue="" alwaysStopAt="true" />
+  <template name="txt" value="TextButton.icon(&#10; onPressed: () {&#10; print(&quot;TextButton.icon&quot;);&#10; },&#10; icon: Icon(Icons.local_florist),&#10; label: Text(&quot;TextButton.icon&quot;))," description="Create TextButton.icon Widget" toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
 </templateSet>
